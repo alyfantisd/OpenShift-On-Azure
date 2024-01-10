@@ -86,7 +86,7 @@ tar -pvczf ocp-installation.tar.gz .
 scp -i ~/.ssh/installer-box-rsa ./ocp-installation.tar.gz localadmin@$INSTALLER_PIP:~/ocp.tar.gz
 
 ```
-#### Connecting to the jump-box
+#### Connecting to the jump-boxs
 
 ```bash
 # SSH to the jumpbox
