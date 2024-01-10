@@ -2,14 +2,14 @@
 
 Using IPI provides a quick and efficient way to provision clusters but you lose a little bit of control over the provisioned cluster installation.
 
-Use this approach if you don't have strict cluster provisioning policies (like deploying in existing resource group is not possible to my knowledge).
+Use this approach if you don't have strict cluster provisioning policies (like deploying in existing resource group is not possible to my knowledge). d
 
 All what you need to use the IPI method, is:
 1. Service Principal with appropriate permissions (detailed in the script)
 2. Details of the vnet address space and whether it exists or it is new
     - Address space of the vnet
     - Subnet for Masters
-    - Subnet for Workers
+    - Subnet for Workers 
 3. DNS (private or public)
 4. Pull secret for cluster activation from your Red Hat account
 5. OPTIONAL: SSH key to be used to connect the cluster nodes for diagnostics
